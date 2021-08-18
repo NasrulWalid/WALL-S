@@ -1,0 +1,275 @@
+body {
+  font-family: "Avenir Next";
+  background-color: rgb(147, 255, 201);
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  line-height: 10px;
+  height: 65px;
+  width: 100%;
+  background-color: #26d0c9;
+  color: #fff;
+  position:fixed;
+  top: 0;
+}
+
+.header-logo {
+  float: right;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list ul li a {
+  float: left;
+  background-color: rgb(7, 196, 0);
+  opacity: 0,8;
+  cursor: pointer;
+  padding:25px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  padding:25px 20px;
+  display: inline-block;
+}
+
+.header-list:hover {
+  background-color:rgb(147, 255, 201)
+}
+
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  size: inherit;
+}
+
+
+.menu1 {
+  size: 200px;
+  font-family:monospace;
+  font-size: 20px;
+  font-weight:bold;
+  float: left;
+  width: 200px;
+  bottom:inherit;
+  cursor: pointer;
+  display:inline-block;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.menu1:hover {
+  background-color: seagreen;
+}
+
+.menu1:active {
+  position: relative;
+  top: 7px;
+}
+
+.menu2 {
+  size: 200px;
+  font-family:monospace;
+  font-size: 20px;
+  font-weight:bold;
+  font-display:initial;
+  float: left;
+  width: 200px;
+  bottom:inherit;
+  cursor: pointer;
+  display:inline-block;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;  
+  box-shadow: 0 7px #1a7940;
+}
+
+.menu2:hover{
+  background-color:red;
+}
+
+.menu2:active {
+  position: relative;
+  top: 7px;
+}
+
+
+.menu3 {
+  size: 200px;
+  font-family:monospace;
+  font-size: 20px;
+  font-weight:bold;
+  float: left;
+  width: 200px;
+  bottom:inherit;
+  cursor: pointer;
+  display:inline-block;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 7px #1a7940;
+}
+
+.menu3:hover {
+  background-color:yellow;
+}
+
+.menu3:active {
+  position: relative;
+  top: 7px;
+}
+
+
+.menu4 {
+  size: 200px;
+  font-family:monospace;
+  font-size: 20px;
+  font-weight:bold;
+  float: left;
+  width: 200px;
+  bottom:inherit;
+  cursor: pointer;
+  display:inline-block;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.menu4:hover {
+  background-color:rgb(76, 245, 217);
+}
+
+.menu4:active {
+  position: relative;
+  top: 7px;
+}
+
+
+.button {
+  size: 200px;
+}
+
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+
+.contact-form {
+  padding-top: 100px;
+}
+
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+width: 400px;
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 20px;
+font-size: 18px;
+border: 1px solid #dee7ec;
+}
+
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  color: #d3ff0d;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width:200px; 
+  background-size: 300px;
+  display:block;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 60px;
+  margin: 0px 0px;
+  border: 0 solid;
+  box-shadow: 0 7px #1a7940;
+}
+
+.contact-submit:hover {
+  background-color: rgb(46, 0, 253);
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+}
+
+.message {
+  background-color:lavender;
+  display:block;
+  width: 20%;
+}
+
+.footer {
+  background-color: #ceb238;
+  color: #fff;
+  height: 120px;
+  padding: 50px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 70px;
+}
+
+.footer-list {
+  float: right;
+  text-align: center;
+  
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  display:block;
+}
+
+.footer-list li a {
+  display:block;
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(253, 9, 192);
+  font-weight:bolder;
+  font-size: 20px;
+}
